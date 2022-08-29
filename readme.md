@@ -15,13 +15,13 @@ it with:
 
     nim c -r build.nim
 
-This involves Nimble and/or the Nim compiler to build relevant files,
-as well as copying/moving files.
+This involves running Nimble and/or the Nim compiler to build relevant
+files, as well as copying/moving files.
 
 If you have problems with the -d:lto (Link Time Optimisation) flag in
 the build script, you might need to use another syntax talking about
 passL and passC.  Search the Nim forums (I think it's a clang thing;
-the syntax I used works with GCC). Alternatively, you can just remove
+the syntax I used works with GCC).  Alternatively, you can just remove
 it - the final executable will be a little larger/slower but it won't
 matter.
 
@@ -40,7 +40,7 @@ download_words.nim.  This gets called by the build script if necessary.
 I'd suggest some manual curation of the words if you can be bothered as
 there are some uncommon ones that would be hard to guess.
 
-The bg.png and font in the dat dir are just copied verbatin from one of
+The bg.png and font in the data dir are just copied verbatin from one of
 Boxy's example. :)
 
 ## Licence
