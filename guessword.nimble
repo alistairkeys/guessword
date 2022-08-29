@@ -13,6 +13,3 @@ bin           = @["guessword"]
 requires "nim >= 1.6.0",
   "staticglfw >= 4.1.3",
   "boxy >= 0.4.0"
-
-#https://github.com/treeform/slappy
-#https://github.com/treeform/pixiebook
