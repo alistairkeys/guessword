@@ -1,7 +1,7 @@
 ## A simple build script to create the app and its dependencies.  You
 ## can compile and run it with:
 ##
-## nim -c r build.nim
+## nim c -r build.nim
 ##
 ## I was originally going to it as a Nimble task but eh, whatever.
 
