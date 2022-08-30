@@ -30,4 +30,5 @@ proc downloadWords() =
     f.close()
 
 when isMainModule:
+  randomize()
   downloadWords()
