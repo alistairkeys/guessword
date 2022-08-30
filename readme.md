@@ -40,7 +40,7 @@ download_words.nim.  This gets called by the build script if necessary.
 I'd suggest some manual curation of the words if you can be bothered as
 there are some uncommon ones that would be hard to guess.
 
-The bg.png and font in the data dir are just copied verbatin from one of
+The bg.png and font in the data dir are just copied verbatim from one of
 Boxy's example. :)
 
 ## Licence
