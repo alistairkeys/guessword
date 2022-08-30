@@ -9,7 +9,7 @@
 # nim c -r download_words
 
 import puppy
-import std/[strutils, random, sugar]
+import std/[strutils, random, sugar, setutils]
 
 const
   url = "https://raw.githubusercontent.com/charlesreid1/five-letter-words/master/sgb-words.txt"
@@ -18,7 +18,8 @@ const
 proc downloadWords() =
   var words = collect:
     for word in fetch(url).splitLines:
-      if word.len == 5: word
+      # Only allow five letter words with unique letter combinations
+      if word.len == 5 and word.toSet.card == 5: word
 
   shuffle words
 
