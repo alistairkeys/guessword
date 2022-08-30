@@ -3,7 +3,7 @@
 ##
 ## nim c -r build.nim
 ##
-## I was originally going to it as a Nimble task but eh, whatever.
+## I was originally going to do it as a Nimble task but eh, whatever.
 
 import std/[os, osproc]
 
