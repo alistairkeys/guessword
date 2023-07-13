@@ -135,7 +135,7 @@ proc doGame() =
 
   while windowShouldClose(window) != 1:
     display()
-    pollEvents()
+    waitEvents()
 
 when isMainModule:
   doGame()
